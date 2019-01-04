@@ -1,0 +1,18 @@
+{
+  "name": "qbo-trial-balance",
+  "version": "1.0.0",
+  "description": "Parses QBO Trial Balance report into a more useful data structure for working with",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Brandon Carlson",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
